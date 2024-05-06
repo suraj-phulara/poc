@@ -1,0 +1,180 @@
+{
+    "basics": {
+      "name": "NIPUN SHARMA",
+      "label": "Support Engineer",
+      "email": "nipunsharma13028@gmail.com",
+      "phone": "9548391783",
+      "url": "www.linkedin.com/in/nipun-sharma-795209191",
+      "summary": "Experienced Support Engineer with expertise in back-end development, front-end development, and miscellaneous technologies. Skilled in Java, NodeJS, Python, Express, HTML, CSS, JavaScript, Amazon AWS, DynamoDB, Git, MongoDB, Machine Learning, Data Science, and SQL.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "",
+        "region": ""
+      },
+      "profiles": []
+    },
+    "work": [
+      {
+        "name": "Amazon",
+        "position": "Support Engineer 2",
+        "url": "",
+        "startDate": "2023-01-01",
+        "endDate": "2023-06-01",
+        "summary": "Led the Certificate Automation project at Amazon, demonstrating proficiency in Node.js, Express, and AWS services. Facilitated cross-functional collaboration and drove innovation in Node.js and Express technologies. Utilized AWS services for data management and version control.",
+        "highlights": [
+          "Led Certificate Automation project",
+          "Facilitated cross-functional collaboration",
+          "Developed highly resilient applications",
+          "Utilized AWS services for data management"
+        ]
+      },
+      {
+        "name": "TCR Innovation",
+        "position": "Machine Learning and Data Science Intern",
+        "url": "",
+        "startDate": "2021-06-01",
+        "endDate": "2021-08-01",
+        "summary": "Identified business problems and recommended data-driven solutions. Conducted exploratory data analysis on various datasets using libraries such as Seaborn, Pandas, Numpy, Matplotlib, and SciPy.",
+        "highlights": [
+          "Identified business problems",
+          "Recommended data-driven solutions",
+          "Conducted exploratory data analysis"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ABES Engineering College, Ghaziabad",
+        "url": "",
+        "area": "Information Technology",
+        "studyType": "Bachelor of Technology",
+        "startDate": "2019-01-01",
+        "endDate": "2023-01-01",
+        "score": "8.4",
+        "courses": []
+      },
+      {
+        "institution": "Delhi Public School, Hapur, India",
+        "url": "",
+        "area": "CBSE (Class XII)",
+        "studyType": "Aggregate",
+        "startDate": "2019-01-01",
+        "endDate": "2019-01-01",
+        "score": "86.6%",
+        "courses": []
+      },
+      {
+        "institution": "Delhi Public School, Hapur, India",
+        "url": "",
+        "area": "CBSE (Class X)",
+        "studyType": "Aggregate",
+        "startDate": "2017-01-01",
+        "endDate": "2017-01-01",
+        "score": "87.4%",
+        "courses": []
+      }
+    ],
+    "skills": [
+      {
+        "name": "BACK END DEVELOPMENT",
+        "level": "",
+        "keywords": [
+          "Java",
+          "NodeJS",
+          "Python",
+          "Express"
+        ]
+      },
+      {
+        "name": "FRONT END DEVELOPMENT",
+        "level": "",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "name": "MISCELLANEOUS",
+        "level": "",
+        "keywords": [
+          "Amazon AWS",
+          "DynamoDB",
+          "CodeCommit",
+          "C++",
+          "Git",
+          "MongoDB",
+          "Machine Learning",
+          "Data Science",
+          "SQL"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Certification Automation",
+        "startDate": "2022-01-01",
+        "endDate": "",
+        "description": "Led an initiative to transform a manual process into an automated system using Node.js, Express, AWS CodeCommit, and DynamoDB. Reduced processing time and increased productivity.",
+        "highlights": [
+          "Led initiative to automate manual process",
+          "Reduced processing time",
+          "Increased productivity"
+        ],
+        "url": ""
+      },
+      {
+        "name": "House Price Prediction",
+        "startDate": "",
+        "endDate": "",
+        "description": "Utilized machine learning algorithms and data analytics tools to predict house prices. Applied data visualizations for accurate forecasting.",
+        "highlights": [
+          "Utilized machine learning algorithms",
+          "Applied data visualizations"
+        ],
+        "url": ""
+      }
+    ],
+    "certificates": [
+      {
+        "name": "AWS Essentials and Machine Learning",
+        "date": "2023-01-01",
+        "issuer": "Amazon",
+        "url": ""
+      },
+      {
+        "name": "Java Programming",
+        "date": "",
+        "issuer": "Juke University",
+        "url": ""
+      },
+      {
+        "name": "Introduction to Industry and Internet of Things",
+        "date": "",
+        "issuer": "NPTEL",
+        "url": ""
+      },
+      {
+        "name": "Developing Soft Skill and Personality and Enhancing Soft and Personality",
+        "date": "",
+        "issuer": "NPTEL",
+        "url": ""
+      }
+    ],
+    "interests": [
+      {
+        "name": "Trekking",
+        "keywords": []
+      },
+      {
+        "name": "eGames",
+        "keywords": []
+      },
+      {
+        "name": "Biking",
+        "keywords": []
+      }
+    ]
+  }

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" dir="ltr" ng-app="LaTeX4technics" ng-controller="legalprivacyController">
+
+<head>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-3004671706905809",
+      enable_page_level_ads: true
+    });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Online LaTeX Equation Editor - LaTeX4technics</title>
+
+    <base href="/">
+
+    <meta name="description" content="" />
+
+    <meta name="keywords" content="">
+
+    <meta name="copyright"
+        content="Copyright (C) 2014- LaTeX4technics, Germany.
+Written by Marc Schnierle.
+This is NOT free software, although it can be used freely.
+This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="css/public/fontawesome/Font-Awesome-4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/public/jquery/layout-default.css" />
+    <link rel="stylesheet" href="css/public/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/public/bootstrap/bootstrap-select.css" />
+    <link rel="stylesheet" href="css/l4t/l4t.min.css" />
+    <script type="text/javascript" src="js/public/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/public/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/public/angular/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="js/public/angular/angular-animate.js"></script>
+    <script type="text/javascript" src="js/public/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public/bootstrap/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/l4t/config.js"></script>
+    <script type="text/javascript" src="OutConsole.js"></script>
+    <script type="text/javascript" src="js/l4t/client_legalprivacy.js"></script>
+    <script type="text/javascript" src="js/l4t/controllers/legalprivacy.js"></script>
+    <script type="text/javascript" src="js/l4t/directives/slimfooter.directive.js"></script>
+    <script type="text/javascript" src="js/public/angular-ui/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0085B6;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #FF0004;
+        }
+
+        h1 {
+            color: #444444;
+            font-size: 36px;
+            line-height: 44px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666666;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            margin: 0 auto;
+            max-width: 1200px;
+            min-height: 70vh;
+            align-items: center;
+        }
+
+        .content_404 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            width: 100%;
+        }
+
+        .message {
+            margin-left: 30px;
+            padding: 15px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 50%;
+        }
+
+        .message-content {
+            width: 75%;
+        }
+
+        .l4tlogo {
+            width: 98px;
+        }
+
+        .image {
+            text-align: right;
+            width: 50%;
+            margin-right: 30px;
+        }
+
+        .image>img {
+            width: 100%;
+        }
+
+        .author {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+        }
+
+        .author-credit {
+            font-size: 12px;
+        }
+
+        .author-avatar {
+            margin-right: 5px;
+            margin-top: 11px;
+            height: 25px;
+        }
+
+        @media screen and (max-width: 1042px) {
+            .message-content {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width: 1023px) {
+            .content_404 {
+                flex-wrap: wrap;
+                max-width: 391px;
+                margin: 0 auto;
+                position: relative;
+                padding-top: 20px;
+            }
+
+            .image {
+                width: 100%;
+                text-align: center;
+                margin-right: 0;
+            }
+
+            .image>img {
+                max-width: 359px;
+            }
+
+            .message {
+                width: 100%;
+                text-align: center;
+                margin-left: 0;
+            }
+
+            .message-logo {
+                position: absolute;
+                top: 25px;
+                left: 25px;
+            }
+
+            .message-content {
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 414px) {
+            .image>img {
+                max-width: 243px;
+            }
+
+            .message {
+                width: 100%;
+                text-align: center;
+            }
+
+            .message-content {
+                max-width: 414px;
+            }
+
+            .message-logo {
+                position: absolute;
+                top: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+                line-height: 37px;
+            }
+
+            .author-avatar {
+                height: 24px;
+            }
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #wrapper {
+            min-height: 100%;
+            position: relative;
+        }
+
+        #header {}
+
+        #content {
+            padding-bottom: 100px;
+            /* Height of the footer element */
+        }
+
+        #footer {
+            background: #3C3C3C;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var gaProperty = 'UA-56068401-2';
+  var disableStr = 'ga-disable-' + gaProperty;
+  if (document.cookie.indexOf(disableStr + '=true') > -1) {
+    window[disableStr] = true;
+  }
+  function gaOptout() {
+    document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+    window[disableStr] = true;
+  }
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-56068401-2']);
+  _gaq.push(['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    </script>
+
+</head>
+
+<body>
+    <!-- #wrapper -->
+    <div id="wrapper">
+
+        <!-- #content -->
+
+        <div id="content">
+
+            <div class="container">
+                <div class="content_404">
+                    <div class="image">
+                        <img src="https://www.latex4technics.com/img/404.png"  alt="">
+                    </div>
+                    <div class="message">
+                        <img src="https://www.latex4technics.com/img/short_logo.png" class="l4tlogo" alt="LaTeX4technics logo">
+                        <div class="message-content">
+                            <h1>Page not found!</h1>
+                            <p>Check your link or open the <a class="btn btn-default"
+                                    href="https://www.latex4technics.com">equation editor</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- #content -->
+
+        <!-- #footer -->
+        <div id="footer">
+            <slimfooter></slimfooter>
+        </div>
+        <!-- #footer -->
+
+    </div>
+    <!-- #wrapper -->
+</body>
+
+</html>
